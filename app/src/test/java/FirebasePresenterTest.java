@@ -50,10 +50,10 @@ public class FirebasePresenterTest {
     /**
      * Test that user is redirected if they are not logged in.
      */
-    @Test
-    public void testUserIsRedirectedWhenLoggedOut() {
-        firebasePresenter.dummyUser = null;
-        firebasePresenter.onAuthStateChanged();
-        verify(serialView).redirectLoggedOutUser();
-    }
+//    @Test
+//    public void testUserIsRedirectedWhenLoggedOut() {
+//        firebasePresenter.dummyUser = null;
+//        firebasePresenter.onAuthStateChanged();
+//        verify(serialView).redirectLoggedOutUser();
+//    }
 }
